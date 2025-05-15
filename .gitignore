@@ -1,5 +1,3 @@
-*.pt
-*.safetensors
 
 __pycache__/
 venv/
