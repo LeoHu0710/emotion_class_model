@@ -13,10 +13,7 @@
 
 > **注意：** 因不同 CUDA 版本對應不同的 PyTorch，請先執行 `nvidia-smi` 查詢 CUDA 版本，再選擇相容的 torch 版本。  
 > 可透過 `test_torchGPU.py` 確認 GPU 是否可用，並列出 GPU 型號。
-> 如遇到 torch 安裝錯誤把 torch==2.5.1+cu121 從 `requirements.txt` 刪除，並手動安裝  
-```
-pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121 --index-url https://download.pytorch.org/whl/cu121
-```
+
 ## 訓練與驗證
 本專案以 `roberta-base` 模型為基礎進行微調，並使用測試集計算正確率、精確度及混淆矩陣。
 
