@@ -12,7 +12,7 @@
   ```
 
 > **注意：** 因不同 CUDA 版本對應不同的 PyTorch，請先執行 `nvidia-smi` 查詢 CUDA 版本，再選擇相容的 torch 版本。  
-> 可透過 `test_torchGPU.py` 確認 GPU 是否可用，並列出 GPU 型號。
+> 可透過 `test_torchGPU.py` 確認 GPU 是否可用，並列出 GPU 型號。  
 > 本專案的部分大型模型儲存在 Git LFS 上，若因 GitHub LFS 下載流量限制導致模型無法下載，歡迎私訊聯絡我取得 Google Drive 下載連結。
 
 ## 訓練與驗證
