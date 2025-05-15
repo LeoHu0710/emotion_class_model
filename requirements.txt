@@ -1,3 +1,9 @@
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
 accelerate==1.6.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.18
@@ -51,9 +57,6 @@ starlette==0.46.2
 sympy==1.13.1
 threadpoolctl==3.6.0
 tokenizers==0.21.1
-torch==2.5.1+cu121
-torchaudio==2.5.1+cu121
-torchvision==0.20.1+cu121
 tqdm==4.67.1
 transformers==4.51.3
 typing-inspection==0.4.0
