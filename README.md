@@ -25,7 +25,7 @@
 
 2. 流程  
    - 根據驗證集正確率選取最佳 checkpoint  
-   - 佳模型選擇驗證正確率相對高且發現後續有 overfitting 現象，保存至 `results/checkpoint_results`  
+   - 最佳模型選擇驗證正確率相對高且發現後續有 overfitting 現象，保存至 `results/checkpoint_results`  
 
 3. 結果  
    - 測試集正確率約 92.35%  
